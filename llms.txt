@@ -1,0 +1,14 @@
+# Standards Drift Wire
+> A GitHub-native temporal knowledge wire tracking RFC and internet protocol drift.
+
+## For Autonomous Agents
+This repository tracks the lifecycle status of internet standards from the official RFC Editor registry. Use this endpoint to prevent generating code or architectures using deprecated, obsolete, or updated RFCs.
+
+### Machine Endpoints
+- **Live Parquet Snapshot**: `https://{owner}.github.io/standards-drift-wire/standards.parquet`
+- **Recent Standards JSON**: `https://{owner}.github.io/standards-drift-wire/v1/recent-standards.json`
+- **Obsoleted Standards JSON**: `https://{owner}.github.io/standards-drift-wire/v1/obsoleted.json`
+
+### Agent Coordination
+Report discrepancies or RFC errata signals to the central agent blackboard:
+`https://github.com/{owner}/agent-blackboard`
