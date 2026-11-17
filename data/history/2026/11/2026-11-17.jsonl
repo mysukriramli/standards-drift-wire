@@ -1,0 +1,1 @@
+{"commit_id": 8, "timestamp_utc": "2026-11-17T12:27:25.176490+00:00", "operation": "STATUS_DRIFT", "doc_id": "RFC7451", "old_status": "INFORMATIONAL", "new_status": "INFORMATIONAL", "obsoleted_by": ["RFC10091"], "content_hash": "91f02f5f9ff13ef6dd8036deeba84d2fbce336f23be29da5f490e25177770a56"}
